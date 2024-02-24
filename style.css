@@ -1,0 +1,59 @@
+.st-emotion-cache-1nv1eyl {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2.875rem;
+    background: rgb(92, 3, 20);
+    outline: none;
+    z-index: 999990;
+    display: block;
+}
+
+.st-emotion-cache-4wx2nr p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.st-emotion-cache-aq4hg7{
+    background-color: #03032f;
+}
+
+.st-emotion-cache-183lzff {
+    font-size: 16px;
+    color: #ebb7b7;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 616px) {
+  .st-emotion-cache-183lzff {
+        font-size: 25px;
+        color: #ebb7b7;
+        font-weight: bolder;
+    }
+    .st-emotion-cache-1v0mbdj {
+        width: 52%;
+    }
+    .st-emotion-cache-1kyxreq{
+            align-items: center;
+        justify-content: center;
+    }
+
+    .st-emotion-cache-y4bq5x {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .st-emotion-cache-183lzff {
+        width: 80%;
+        font-size: 1.4rem;
+        background-color: #261d21;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .st-emotion-cache-1y4p8pa {
+        padding: 0rem 1rem 10rem;
+    }
+}
