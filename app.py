@@ -7,7 +7,7 @@ with open('style.css') as f:
 
 # Define the function to fetch movie posters using OMDB API
 def fetch_poster(movie_name):
-    api_key = "881a486a"
+    api_key = st.secrets["key"]
     search_url = f"http://www.omdbapi.com/?apikey={api_key}&t={movie_name}"
 
     response = requests.get(search_url)
