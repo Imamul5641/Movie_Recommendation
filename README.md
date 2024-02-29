@@ -1,6 +1,6 @@
 # Movie Recommender System
 
-This project is a Movie Recommender System developed using Streamlit, Python, and The Movie Database (TMDb) API. It recommends movies based on similarity scores between movies.
+This project is a Movie Recommender System developed using Streamlit, Python, and The Movie Database (OMDb) API. It recommends movies based on similarity scores between movies.
 
 
 ## Prerequisites
@@ -19,8 +19,8 @@ This project is a Movie Recommender System developed using Streamlit, Python, an
 
 ## Data
 
-- The system uses a precomputed similarity matrix stored in a compressed pickle file *(similarity.pkl.gz)*.
-- Movie details are fetched from 'movies1.csv', which contains information about movies, including title and ID.
+- The system uses a precomputed similarity matrix and use to generate recommend pickle file *(recommend.pkl)*.
+- Movie details are fetched from 'movies.csv', which contains information about movies from a kaggle dataset.
 
 ## Usage
 
@@ -31,11 +31,12 @@ This project is a Movie Recommender System developed using Streamlit, Python, an
   
 ## Acknowledgments
 
-- The Movie Database (TMDb) API is used to fetch movie details and posters.
-- The similarity matrix is precomputed and stored in a compressed pickle file.
+- The Movie Database (OMDb) API is used to fetch movie details and posters.
+- The recommend file is precomputed and stored in a compressed pickle file.
    
 
 ## Author
 
-- [Imamul Hasan](https://imamul5641.github.io/imamulhasan.github.io/) (Add a link to your GitHub profile or personal website)
+- [Imamul Hasan](https://imamul5641.github.io/imamulhasan.github.io/)
+
  
